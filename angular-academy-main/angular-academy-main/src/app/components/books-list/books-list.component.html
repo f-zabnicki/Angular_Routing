@@ -1,0 +1,17 @@
+<h2>
+  Book List
+  <!-- <span *ngIf="userName$ | async"> of {{userName$ | async}}</span> -->
+</h2>
+
+<ul>
+  <li
+    *ngFor="let book of books"
+    (click)="bookSelected(book)"
+    [class.selected]="book.id === selectedId"
+  >
+    <app-book-item [book]="book"></app-book-item>
+  </li>
+</ul>
+
+<app-book-details></app-book-details>
+<router-outlet></router-outlet>

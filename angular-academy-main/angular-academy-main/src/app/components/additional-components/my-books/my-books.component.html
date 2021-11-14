@@ -1,0 +1,24 @@
+<h2>My Books</h2>
+
+<ul>
+  <li *ngFor="let book of books; let i = index">
+    {{ i + 1 }}. {{ book.title }} <button (click)="remove(book.id)">Remove</button>
+  </li>
+</ul>
+
+<h3>Dodaj książkę:</h3>
+
+<!-- should go to a new component -->
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <p>
+    <label>Title:</label>
+    <input type="text" formControlName="title" />
+  </p>
+  <p>
+    <label>Author:</label>
+    <input type="text" formControlName="author" />
+  </p>
+  <p>
+    <button type="submit" [disabled]="!form.valid">Dodaj</button>
+  </p>
+</form>

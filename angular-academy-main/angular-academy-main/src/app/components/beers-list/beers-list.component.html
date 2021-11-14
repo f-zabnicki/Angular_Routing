@@ -1,0 +1,12 @@
+<div *ngIf="beers && beers.length">
+  <h2>Beer List</h2>
+
+  <ul>
+    <li *ngFor="let beer of beers">
+    {{beer.name}}
+    </li>
+  </ul>
+</div>
+
+
+

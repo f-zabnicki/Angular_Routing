@@ -1,0 +1,73 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "author": "Kolk Bessel van der",
+      "title": "Strach ucieleśniony",
+      "category": 5
+    },
+    {
+      "id": 2,
+      "author": "Porter-Szűcs Brian ",
+      "title": "Całkiem zwyczajny kraj. Historia Polski bez martyrologii",
+      "category": 3
+    },
+    {
+      "id": 3,
+      "author": "Lutz Mark",
+      "title": "Python. Wprowadzenie. Wydanie V",
+      "category": 4
+    },
+    {
+      "id": 4,
+      "author": "Bhargava Aditya",
+      "title": "Algorytmy. Ilustrowany przewodnik",
+      "category": 4
+    },
+    {
+      "id": 5,
+      "author": "Lanier Jaron",
+      "title": "Dziesięć powodów, dla których powinieneś natychmiast usunąć swoje konta z mediów społecznościowych",
+      "category": 3
+    },
+    {
+      "id": 6,
+      "author": "McKeown Greg",
+      "title": "Esencjalista",
+      "category": 3
+    },
+    {
+      "title": "Anna Karenina",
+      "author": "",
+      "id": 7,
+      "category": 2
+    },
+    {
+      "title": "Diuna",
+      "author": "",
+      "id": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Komedia"
+    },
+    {
+      "id": 2,
+      "name": "Powieść"
+    },
+    {
+      "id": 3,
+      "name": "Esej"
+    },
+    {
+      "id": 4,
+      "name": "Programowanie"
+    },
+    {
+      "id": 5,
+      "name": "Literatura popularnonaukowa"
+    }
+  ]
+}

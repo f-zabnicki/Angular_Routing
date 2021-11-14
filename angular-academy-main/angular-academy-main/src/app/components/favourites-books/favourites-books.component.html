@@ -1,0 +1,22 @@
+<p>favourites-books works!</p>
+<div *ngFor="let item of books">
+    {{item.title}} <button (click)="remove(item.id)">Remove</button>
+</div>
+
+
+<h3>Dodaj książkę:</h3>
+
+<!-- should go to a new component -->
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <p>
+    <label>Title:</label>
+    <input type="text" formControlName="title" />
+  </p>
+  <p>
+    <label>Author:</label>
+    <input type="text" formControlName="author" />
+  </p>
+  <p>
+    <button type="submit" [disabled]="!form.valid">Dodaj</button>
+  </p>
+</form>

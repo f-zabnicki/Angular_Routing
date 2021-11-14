@@ -1,0 +1,20 @@
+<nav>
+  <ul class="nav-list">
+    <li><a routerLink="/">Welcome</a></li>
+    <li><a routerLink="/books">Books</a></li>
+    <li><a routerLink="/categories">Categories</a></li>
+    <li><a routerLink="/favourites">Favourites Books</a></li>
+    <li>|</li>
+    <li>
+      <a routerLink="/beers"
+        >Beers
+        <span *ngIf="beersLength" class="beer-count">{{ beersLength }}</span></a
+      >
+    </li>
+    <li *ngIf="count">My books{{ count }}</li>
+    <li class="user">
+      <a routerLink="/user">User: {{ userName }} </a>
+    </li>
+  </ul>
+</nav>
+<router-outlet></router-outlet>
