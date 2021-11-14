@@ -18,6 +18,8 @@ import { UserPanelComponent } from "./components/user-panel/user-panel.component
 import { BeersListComponent } from "./components/beers-list/beers-list.component";
 import { MyBooksComponent } from "./components/additional-components/my-books/my-books.component";
 import { FavouritesBooksComponent } from './components/favourites-books/favourites-books.component';
+import { CategoriesComponent } from './components/categories/categories.component';
+import { RandomComponent } from './components/random/random.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +37,8 @@ import { FavouritesBooksComponent } from './components/favourites-books/favourit
     FooterComponent,
     MyBooksComponent,
     FavouritesBooksComponent,
+    CategoriesComponent,
+    RandomComponent,
   ],
   imports: [
     BrowserModule,

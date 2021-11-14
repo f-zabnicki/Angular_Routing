@@ -5,8 +5,10 @@ import { BeersListComponent } from "./components/beers-list/beers-list.component
 import { BookCategoriesComponent } from "./components/book-categories/book-categories.component";
 import { BookDetailsComponent } from "./components/books-list/book-details/book-details.component";
 import { BooksListComponent } from "./components/books-list/books-list.component";
+import { CategoriesComponent } from "./components/categories/categories.component";
 import { FavouritesBooksComponent } from "./components/favourites-books/favourites-books.component";
 import { NotFoundComponent } from "./components/not-found/not-found.component";
+import { RandomComponent } from "./components/random/random.component";
 import { UserPanelComponent } from "./components/user-panel/user-panel.component";
 import { WelcomeComponent } from "./components/welcome/welcome.component";
 
@@ -16,7 +18,8 @@ const routes: Routes = [
     component: BooksListComponent,
     children: [{ path: ":id", component: BookDetailsComponent }],
   },
-  { path: "categories", component: BookCategoriesComponent },
+  { path: "random", component: RandomComponent},
+  { path: "categories", component: CategoriesComponent },
   { path: "beers", component: BeersListComponent },
   { path: "user", component: UserPanelComponent },
   { path: "favourites", component: FavouritesBooksComponent },

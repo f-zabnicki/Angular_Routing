@@ -1,0 +1,17 @@
+<p>Czy to coś działa?</p>
+<div *ngFor="let item of categories">
+    {{item.title}}
+</div>
+
+<h3>Dodaj kategorie:</h3>
+
+<!-- should go to a new component -->
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <p>
+    <label>Nazwa kategorii:</label>
+    <input type="text" formControlName="title" />
+  </p>
+  <p>
+    <button type="submit" [disabled]="!form.valid">Dodaj</button>
+  </p>
+</form>

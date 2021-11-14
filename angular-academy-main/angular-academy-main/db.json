@@ -1,12 +1,6 @@
 {
   "books": [
     {
-      "id": 1,
-      "author": "Kolk Bessel van der",
-      "title": "Strach ucieleśniony",
-      "category": 5
-    },
-    {
       "id": 2,
       "author": "Porter-Szűcs Brian ",
       "title": "Całkiem zwyczajny kraj. Historia Polski bez martyrologii",
@@ -37,12 +31,6 @@
       "category": 3
     },
     {
-      "title": "Anna Karenina",
-      "author": "",
-      "id": 7,
-      "category": 2
-    },
-    {
       "title": "Diuna",
       "author": "",
       "id": 8
@@ -68,6 +56,14 @@
     {
       "id": 5,
       "name": "Literatura popularnonaukowa"
+    },
+    {
+      "title": "Horror",
+      "id": 6
+    },
+    {
+      "title": "Opera",
+      "id": 7
     }
   ]
 }
