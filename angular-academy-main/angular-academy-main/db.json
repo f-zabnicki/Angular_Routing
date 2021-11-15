@@ -39,23 +39,23 @@
   "categories": [
     {
       "id": 1,
-      "name": "Komedia"
+      "title": "Komedia"
     },
     {
       "id": 2,
-      "name": "Powieść"
+      "title": "Powieść"
     },
     {
       "id": 3,
-      "name": "Esej"
+      "title": "Esej"
     },
     {
       "id": 4,
-      "name": "Programowanie"
+      "title": "Programowanie"
     },
     {
       "id": 5,
-      "name": "Literatura popularnonaukowa"
+      "title": "Literatura popularnonaukowa"
     },
     {
       "title": "Horror",
@@ -64,6 +64,10 @@
     {
       "title": "Opera",
       "id": 7
+    },
+    {
+      "title": "Thriller",
+      "id": 8
     }
   ]
 }
